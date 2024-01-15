@@ -1,0 +1,10 @@
+#title__container {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#title__container > h2 {
+    color: white;
+    font-size: 80px;
+    margin: 20px 0;
+}

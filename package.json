@@ -2,6 +2,7 @@
   "name": "blog",
   "version": "0.0.0",
   "scripts": {
+    "run": "ng build && git add . && git commit -m'v1.0' && git pull origin main && git push -u origin main",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",

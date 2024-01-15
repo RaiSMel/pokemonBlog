@@ -1,0 +1,50 @@
+.container__big-card{
+    border-radius: 10px;
+
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.big-card__picture{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.big-card__picture > img{
+    background-color: #fff;
+    border-radius: 5px;
+
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    object-fit: contain;
+}
+
+.big-card__date{
+    margin-top: 10px;
+}
+.big-card__date > p{
+    color: #333;
+    font-size: 12px;
+}
+
+.big-card__title{
+    text-align: justify;
+    margin-top: 10px;
+    width: 85%;
+}
+.big-card__title > h3{
+    color: #fff;
+    font-size: 24px;
+}
+
+.big-card__description{
+    margin-top: 20px;
+    width: 85%;
+}
+
+.big-card__description > p{
+    color: #777;
+    font-size: 14px;
+}

@@ -1,0 +1,12 @@
+.articles {
+    display: flex;
+    width: 94vw;
+    margin: 0 auto;
+}
+
+.articles__main,
+.articles__others{
+    width: 50%;
+}
+
+
